@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, Image, ImageBackground, StyleSheet, Text, TextInput,TouchableOpacity } from 'react-native';
+
 export default function Opcao() {
     return (
         <View style={styles.main}>
