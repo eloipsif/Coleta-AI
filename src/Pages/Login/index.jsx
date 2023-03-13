@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { View, Image, ImageBackground, StyleSheet, Text, TextInput,TouchableOpacity } from 'react-native';
 import { Feather as Icon } from '@expo/vector-icons';
 
-import {useNagation} from'@react-navigation/native';
+import { useNavigation } from'@react-navigation/native';
 
 export default function Login() {
 
-    const navigation = useNagation();
+    const navigation = useNavigation();
 
     function handleNavegationToopcao(){
         navigation.navigate('Opcao')
